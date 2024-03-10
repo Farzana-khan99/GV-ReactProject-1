@@ -1,0 +1,36 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --lightblack: #1b1e20;
+  --pink :#ff545a;
+  --black: #000;
+  --gray:#859098;
+  --bgColor : #a09e9c;
+  --white:#fff;
+  --ligtBg : #f8f8f8;
+  --btncolor :#293463
+
+}
+
+li{
+ 
+  list-style: none;
+}
+a{
+ 
+  text-decoration: none;
+}
+.container{
+  max-width: 120rem;
+  margin: 0 auto;
+padding: 0 70px;
+}
+

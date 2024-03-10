@@ -1,0 +1,42 @@
+
+.footer{
+    padding: 50px 0;
+    background: var(--lightblack);
+}
+.footerContent{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.ft-text {
+    text-transform: capitalize;
+    color: var(--white);
+}
+.ft-text h2{
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.ft-text p{
+    font-size: 0.9rem;
+}
+.social-link {
+    display: flex;
+    gap: 20px;
+}
+.ft-text input{
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--pink);
+    outline: none;
+    padding: 10px 20px ;
+}
+.copyright  {
+    padding: 10px 0;
+    text-transform: capitalize;
+    border-top: 1px solid;
+    text-align: center;
+    color: #000;
+}
